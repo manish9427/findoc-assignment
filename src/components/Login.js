@@ -18,7 +18,6 @@ const Login = () => {
   });
 
   const handleSubmit = (values) => {
-    // Simulate successful login
     console.log('Login successful:', values);
     navigate('/home'); 
   };
