@@ -1,9 +1,7 @@
-// src/components/Login.js
-import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { useNavigate } from 'react-router-dom'; 
-import './Login.css'; // Import the CSS file
+import './Login.css'; 
 
 const Login = () => {
   const navigate = useNavigate(); 
